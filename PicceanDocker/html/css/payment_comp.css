@@ -1,0 +1,59 @@
+body{
+  width:100%;
+}
+
+.regestMessage{
+  margin: 0 auto;
+  margin: auto;
+  margin-top: 50px;
+  width:50%;
+  /*background-color: antiquewhite*/
+
+}
+
+.p1{
+  margin: 8vh 8vw;
+  border-bottom: solid 1px;
+  font-size: 64px;
+}
+
+p{
+  text-align: center;
+}
+.ButtonBox{
+  width: 536px;
+  height: 64px;
+  margin:40vh auto;
+  text-align: center;
+  /*background-color: aqua;*/
+}
+.backButton {
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	background: #3879D9;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: .2s ease-in-out;
+	float: left;
+}
+.backButton:hover {
+	cursor: pointer;
+	background: #2f8fcf;
+}
+.downloadButton {
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	background: #f16272;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: .2s ease-in-out;
+	float: right;
+}
+.downloadButton:hover {
+	cursor: pointer;
+	background: #ee3e52;
+}

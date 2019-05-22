@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+h1 {
+	color: #fff;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.content {
+	margin: 0 5%;
+}
+
+#imageMenuBox {
+	padding: 5px;
+	margin-bottom: 5px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+/* 画像詳細メニュー */
+#imageMenu {
+	margin: 20px 0;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.menuBox {
+	display: inline-block;
+	vertical-align: text-top;
+	margin: 0 10px;
+}
+.menuBox label {
+	color: #fff;
+}
+.menuItem {
+	margin-top: 0.5em;
+}
+.menuItem li {
+	color: #fff;
+} 
+.floatRight {
+	float: right;
+}
+.selectBox {
+	vertical-align: text-bottom;
+}
+
+/* 画像一覧 */
+#imageWrapper {
+	margin-bottom: 50px;
+	column-count: 5;
+	column-gap: 0;
+}
+.imageBox {
+	padding: 5px;
+	-webkit-column-break-inside: avoid;
+	page-break-inside: avoid;
+	break-inside: avoid;
+}
+.imageBox img {
+	width: 100%;
+	background: #eee;
+	cursor: pointer;
+	transition: ease-in .1s;
+}
+.imageBox img:hover {
+	box-shadow: 0 0 5px #333;
+}
+
+/* ページネーション */
+#pagiNationArea {
+	margin-bottom: 60px;
+	text-align: center;
+}
+#pagiNationArea p span {
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 0 5px #000;
+}
+#nextPage {
+	width: 60%;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+#pagiNation {
+	margin-bottom: 60px;
+}
+.changePage {
+	background: #eee;
+}
+.changePage:hover {
+	background: #ddd;
+	cursor: pointer;
+}
+.current {
+	background: #3879D9;
+	color: #fff;
+}
+.pageButton {
+	display: inline-block;
+	margin: -1px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+@media  screen and (max-width: 960px) {
+	#imageWrapper {
+		column-count: 4;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#imageWrapper {
+		column-count: 3;
+	}
+}
+
+@media  screen and (max-width: 480px) {
+	#imageWrapper {
+		column-count: 2;
+	}
+}

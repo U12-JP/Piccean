@@ -1,0 +1,152 @@
+.cartForm {
+	height: 100%;
+}
+.wrapper{
+    width: 100%;
+	min-height: 100vh;
+	height: 100%;
+	padding-top: 40px;
+	background-color: rgba(0, 0, 0 ,0.4);
+}
+.leftbox{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.rightbox{
+    width: 50%;
+    height:100%;
+    float: left;
+}
+.picture{
+    width: 60%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+    text-align: center;
+}
+.info_l{
+    width: 60%;
+    margin: 0 auto;
+}
+.comment{
+	position: relative;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000 inset;
+	margin-bottom: 20px;
+}
+.comment:after {
+	position: absolute;
+	bottom: -8px;
+	left: 30px;
+	content: "";
+	width: 30px;
+	height: 30px;
+	border-right: solid 3px rgba(0, 0, 0, 0.05);
+	border-bottom: solid 3px rgba(0, 0, 0, 0.05);
+	background: #fff;
+	transform: rotate(45deg);
+}
+.user{
+	width: 100%;
+}
+.user p {
+	
+	color: #fff;
+}
+.info_r{
+    width: 100%;
+}
+.category{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.category p {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	background: #3879D9;
+	color: #fff;
+}
+.map{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.buy{
+	position: relative;
+	width: 36vw;
+	margin-bottom: 20px;
+}
+.buy p {
+	position: absolute;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	color: yellow;
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+}
+.submit_b {
+	position: absolute;
+	right: 0;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	background: #f16272;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+	transition: .2s ease-in-out;
+}
+.submit_b:hover {
+	cursor: pointer;
+	background: #ee3e52;
+}
+.shop{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.shop p {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	background: #3879D9;
+	color: #fff;
+}
+.exif{
+	width: 36vw;
+	margin-bottom: 20px;
+}
+.exif p {
+	display: inline-block;
+	max-width: calc(100% - 200px);
+	margin: 0;
+	padding: 0;
+	padding: 10px;
+	background: #fff;
+	border-radius: 5px;
+}
+.image_file{
+    width: 32vw;
+    height: 24vw;
+}
+.title{
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+    font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+.map_frame{
+    width: 36vw;
+    height: 18vw;
+}
